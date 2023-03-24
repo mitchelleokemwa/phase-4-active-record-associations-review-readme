@@ -1,2 +1,6 @@
-class Author < ApplicationRecord
-end
+class Author < ApplicationRecord 
+    class Author < ApplicationRecord 
+        has_many :posts 
+        has_one :profile 
+    end 
+end 
